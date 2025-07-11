@@ -22,6 +22,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/YomnaIbrahim4/Problem_Solving/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/YomnaIbrahim4/Problem_Solving/tree/master/0020-valid-parentheses) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -30,4 +31,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/YomnaIbrahim4/Problem_Solving/tree/master/0070-climbing-stairs) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/YomnaIbrahim4/Problem_Solving/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
