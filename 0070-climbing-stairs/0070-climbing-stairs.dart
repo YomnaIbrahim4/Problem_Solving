@@ -1,18 +1,21 @@
 class Solution {
  int climbStairs(int n) {
+  // لو السلم درجة أو درجتين نرجّع النتيجة مباشرة
   if (n == 1) return 1;
   if (n == 2) return 2;
 
-  int oneStepBefore = 2; // n = 2
-  int twoStepsBefore = 1; // n = 1
-  int allWays = 0;
+  // نبدأ نحسب من 3 وانت طالع
+  int one = 2; // خطوات n = 2
+  int two = 1; // خطوات n = 1
+  int result = 0;
 
   for (int i = 3; i <= n; i++) {
-    allWays = oneStepBefore + twoStepsBefore;
-    twoStepsBefore = oneStepBefore;
-    oneStepBefore = allWays;
+    result = one + two; // نجمّع الطريقتين
+    two = one;
+    one = result;
   }
 
-  return allWays;
+  return result;
 }
+
 }
